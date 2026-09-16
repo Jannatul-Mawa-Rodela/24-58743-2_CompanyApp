@@ -620,8 +620,33 @@ The following application flow was tested:
 * [x] One project and one executable are used
 
 ---
+# 21. Screenshots:
+Database tables:
+<img width="1315" height="742" alt="image" src="https://github.com/user-attachments/assets/0c119012-f8e6-4566-be31-36cfdb8fd08d" />  
+<img width="1085" height="737" alt="image" src="https://github.com/user-attachments/assets/e5d7791c-ceb1-453d-8235-496707f9f9d1" />
 
-# 21. Submission Files
+Solution Explorer:
+<img width="592" height="1020" alt="image" src="https://github.com/user-attachments/assets/bf016758-7d0e-41e9-bc02-c88a123e5a9b" />
+
+Working Application:
+[Log in page]
+<img width="417" height="657" alt="image" src="https://github.com/user-attachments/assets/71d6d315-d48b-4816-a434-948c77cd0e86" />
+[Register page]
+<img width="367" height="716" alt="image" src="https://github.com/user-attachments/assets/a94065a5-5f4d-434b-9892-b0769fa1fa58" />
+
+[DashBoard]
+<img width="1007" height="742" alt="image" src="https://github.com/user-attachments/assets/2ed76869-31a0-4f81-b7c4-ca4fab65e22a" />
+[Employee management-Employee Details]
+<img width="1175" height="640" alt="image" src="https://github.com/user-attachments/assets/1e572b92-be1f-4393-8d45-05b2dabf89c5" />
+
+# 22.Bonus Features
+
+The bonus features were not implemented in this version of the project. The main required features of Lab 2 were completed, including the unified database, login and registration, employee CRUD operations, session management, `CreatedBy` relationship, and logout functionality.
+
+Possible bonus features such as SHA-256 password hashing, role-based access control, login history, and search-by-name with delete confirmation were considered as future improvements.
+
+
+# 23. Submission Fils
 
 The final submission contains:
 
@@ -641,6 +666,6 @@ The old `db_users.mdb` file is also not included.
 
 ---
 
-## Conclusion
+## 24. Conclusion
 
 The Login/Register and Employee CRUD applications were successfully merged into one Windows Forms application. The final system uses SQL Server LocalDB as the single database and `System.Data.SqlClient` as the single database provider. Login and registration are connected to the `Users` table, while employee CRUD operations use the `Emp_details` table. The `Session` class connects the logged-in user with employee records through the `CreatedBy` foreign key. The final application therefore provides one integrated login, dashboard, employee management, and logout workflow.
